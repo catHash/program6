@@ -22,11 +22,17 @@ public class ShapeMain
                     break;
 
                 case 2:
-                    //Square
+                    Square square = new Square("Jessica's Square");
+                    System.out.println("Enter Side");
+                    square.setSide(input.nextDouble());
+                    System.out.print("Square Area: ");
+                    System.out.println(square.getArea());
+                    System.out.print("Square Volume: ");
+                    System.out.println(square.getVolume());
                     break;
 
                 case 3:
-                    Rectangle tangle = new Rectangle("Brian's Rectangle");
+                    Rectangle tangle = new Rectangle("Jessica's Rectangle");
                     System.out.println("Enter Length");
                     tangle.setLength(input.nextDouble());
                     System.out.println("Enter Width");
@@ -40,7 +46,17 @@ public class ShapeMain
                     break;
 
                 case 4:
-                    //triangle
+                    Triangle angle = new Triangle("Jessica's Angle");
+                    System.out.println("Enter Length");
+                    angle.setLength(input.nextDouble());
+                    System.out.println("Enter Base");
+                    angle.setBase(input.nextDouble());
+                    System.out.println("Enter Height");
+                    angle.setHeight(input.nextDouble());
+                    System.out.print("Triangle Area: ");
+                    System.out.println(angle.getArea());
+                    System.out.print("Triangle Volume: ");
+                    System.out.println(angle.getVolume());
                     break;
 
                 case 5:
