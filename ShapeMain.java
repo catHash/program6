@@ -8,12 +8,12 @@ public class ShapeMain
         Scanner input = new Scanner(System.in);
         choice = input.nextInt();
 
-        while (choice =! 5)
+        while (choice != 5)
         {
             switch(choice)
             {
                 case 1:
-                    Circle circle = new Circle(name, radius)
+                    Circle circle = new Circle("circle", 3.14);
                     System.out.println("Enter value of the Circle's radius");
                     circle.setRadius(input.nextDouble());
 

@@ -15,6 +15,11 @@ public class Circle extends Shape
         return radius;
     }
 
+    public double setRadius(double radius)
+    {
+        return this.radius = radius;
+    }
+
     public double getArea()
     {
         double circleArea = (Math.PI * getRadius() * getRadius());
